@@ -11,9 +11,5 @@ import ValuesPreview from "./cms-preview-templates/values";
 import ContactPreview from "./cms-preview-templates/contact";
 
 CMS.registerPreviewStyle(styles, { raw: true });
-CMS.registerPreviewTemplate("home", HomePreview);
-CMS.registerPreviewTemplate("post", PostPreview);
-CMS.registerPreviewTemplate("products", ProductsPreview);
-CMS.registerPreviewTemplate("values", ValuesPreview);
-CMS.registerPreviewTemplate("contact", ContactPreview);
+
 CMS.init();
